@@ -16,7 +16,7 @@ env:
     # Add envs
   RESOURCE_GROUP_NAME: Handson01Repo666-CICD
   CONTAINERAPP_NAME: ctapp-demo-ui
-  API_BASE_URL: https://ctapp-demo-ui.happybay-9ee85608.japaneast.azurecontainerapps.io
+  API_BASE_URL: https://ctapp-demo-api.happybay-9ee85608.japaneast.azurecontainerapps.io
 
 jobs:
   build:
