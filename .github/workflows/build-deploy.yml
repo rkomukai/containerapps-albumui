@@ -10,6 +10,7 @@ on:
     paths:
     - '**'
 #Add Env
+
 env: 
   CONTAINER_REGISTRY: repo6663a6dd2wsu43my.azurecr.io
     # Add envs
