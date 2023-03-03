@@ -7,7 +7,7 @@ env:
   CONTAINER_REGISTRY: repo6663a6dd2wsu43my.azurecr.io
     # Add envs
   RESOURCE_GROUP_NAME: Handson01Repo666-CICD
-  CONTAINERAPP_NAME:  ctapp-demo-api
+  CONTAINERAPP_NAME:  ctapp-demo-ui
 
 jobs:
   build:
@@ -86,7 +86,7 @@ jobs:
             az containerapp ingress enable \
               --name ${{ env.CONTAINERAPP_NAME }} \
               --resource-group ${{ env.RESOURCE_GROUP_NAME }} \
-              --target-port 3500 \
+              --target-port 3000 \
               --type external
 
             container_name=$( \
